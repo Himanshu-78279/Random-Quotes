@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: cursive;
+}
+body{
+    background-color: grey;
+}
+.container{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+#head{
+    position: absolute;
+    left: 26%;
+    top: 3%; 
+    text-decoration: underline;
+}
+#quoteContainer{
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    /* background-color: aqua; */
+    margin-left: 50px;
+    top: 23%;
+    font-size: 30px;
+    overflow: auto;
+}
+#authorPara{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 420px;
+}
+#btn{
+    position: absolute;
+    margin-top: 330px;
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    padding: 5px;
+    background-color: #1DA1F2;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+#twitterBtn{
+    position: absolute;
+    margin-top: 330px;
+    width: 150px;
+    height: 40px;
+    margin-left: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
